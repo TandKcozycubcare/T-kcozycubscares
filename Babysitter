@@ -1,0 +1,120 @@
+<index.html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>T&K Cozy Cubs Care – Opening Soon</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #eaf4ff;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header {
+      background-color: #d9ecff;
+      border-radius: 20px;
+      padding: 30px 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+    h1 { font-size: 2.4rem; margin-bottom: 10px; }
+    h2 { font-size: 1.8rem; margin-top: 20px; color: #355f8a; }
+    .subtitle { font-size: 1.1rem; font-style: italic; margin-bottom: 20px; }
+    .card { background: #ffffff; border-radius: 18px; padding: 25px; margin: 20px 0; box-shadow: 0 6px 18px rgba(0,0,0,0.07); }
+    .emoji { font-size: 1.5rem; }
+    ul { list-style: none; padding: 0; }
+    ul li { margin: 10px 0; }
+    .highlight { background-color: #f3f9ff; padding: 25px; border-radius: 14px; font-weight: bold; display: block; margin: 10px 0; font-size: 1.5rem; }
+    .button { background-color: #355f8a; color: #ffffff; padding: 15px 25px; margin: 10px; border: none; border-radius: 12px; cursor: pointer; font-size: 1rem; text-decoration: none; display: inline-block; }
+    footer { margin-top: 50px; padding: 25px; background-color: #d9ecff; border-radius: 20px; font-size: 0.95rem; }
+    .names { margin-top: 15px; font-weight: bold; }
+    input, textarea { padding: 10px; width: 80%; margin: 5px 0; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; }
+    a.contact-link { color: #355f8a; font-weight: bold; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧸🤍 OPENING SOON 🤍🧸</h1>
+      <p class="subtitle">A cozy, personal, and parent‑friendly experience run by just two dedicated caregivers that are 13-year-olds with very good experience 🧸✨</p>
+      <h2>🌿 T&amp;K Cozy Cubs Care Experience 🌿</h2>
+      <p class="subtitle">✨ A warm, cozy, and loving place for your little cubs ✨</p>
+      <a href="#book" class="button">Book Now</a>
+      <a href="#contact" class="button">Contact</a>
+    </header>
+
+    <div class="card" id="book">
+      <h2>🧸 Now Welcoming Children Ages 1–9</h2>
+      <p>👶👧🧒 Drop off your <strong>amazing kids</strong> and relax knowing they are cared for in a <strong>safe, nurturing, and cozy environment</strong> with personal attention from just two experienced caregivers.</p>
+      <form action="https://formspree.io/f/mlezbpgk" method="POST">
+        <input type="hidden" name="_to" value="teyanaeldemire@gmail.com">
+        <input type="hidden" name="_subject" value="New Booking Submission">
+        <p><input type="text" name="name" placeholder="Your Name" required></p>
+        <p><input type="email" name="email" placeholder="Your Email" required></p>
+        <p><input type="tel" name="phone" placeholder="Your Phone Number" required></p>
+        <p><button type="submit" class="button">Book Here</button></p>
+      </form>
+    </div>
+
+    <div class="card">
+      <p class="highlight">Reminder: Summer is the best time to contact us. We are busy on weekdays, but after school hours can be good! ⏰ Reserve your child’s spot soon! 📅 Opening in ONE WEEK!</p>
+    </div>
+
+    <div class="card">
+      <h2>📍 Location</h2>
+      <p>Contact us for location details.</p>
+      <p>📧 Email: <a href="mailto:teyanaeldemire@gmail.com" class="contact-link">teyanaeldemire@gmail.com</a></p>
+      <p>📞 Phone: <a href="tel:+12396287327" class="contact-link">(239) 628-7327</a></p>
+    </div>
+
+    <div class="card" id="contact">
+      <h2>📧 Contact Us / Request Information</h2>
+      <form action="https://formspree.io/f/mlezbpgk" method="POST">
+        <input type="hidden" name="_to" value="teyanaeldemire@gmail.com">
+        <input type="hidden" name="_subject" value="New Contact Submission">
+        <p><input type="text" name="name" placeholder="Your Name" required></p>
+        <p><input type="email" name="email" placeholder="Your Email" required></p>
+        <p><input type="tel" name="phone" placeholder="Your Phone Number" required></p>
+        <p><button type="submit" class="button">Submit</button></p>
+      </form>
+      <p>Or contact us directly:</p>
+      <p>📧 Email: <a href="mailto:teyanaeldemire@gmail.com" class="contact-link">teyanaeldemire@gmail.com</a></p>
+      <p>📞 Phone: <a href="tel:+12396287327" class="contact-link">(239) 628-7327</a></p>
+    </div>
+
+    <div class="card">
+      <h2>🛡️ Your Child’s Safety Matters Most</h2>
+      <ul>
+        <li>🤍 Loving supervision</li>
+        <li>🤍 Secure &amp; caring space</li>
+        <li>🤍 Comfort, kindness, and trust every day</li>
+      </ul>
+    </div>
+
+    <div class="card" id="reviews">
+      <h2>🌟 Leave a Review</h2>
+      <form action="https://formspree.io/f/mlezbpgk" method="POST">
+        <input type="hidden" name="_to" value="teyanaeldemire@gmail.com">
+        <input type="hidden" name="_subject" value="New Review Submission">
+        <p><input type="text" name="name" placeholder="Your Name" required></p>
+        <p><input type="email" name="email" placeholder="Your Email" required></p>
+        <p><textarea name="review" placeholder="Your Review" rows="4" required></textarea></p>
+        <p><button type="submit" class="button">Submit Review</button></p>
+      </form>
+    </div>
+
+    <footer>
+      <h2>🌸 T&amp;K Cozy Cubs Care 🌸</h2>
+      <p><em>Where little cubs feel safe, loved, and right at home</em> 🧸✨</p>
+      <p class="names">Founded with love by <strong>𝐓𝐞𝐲𝐚𝐧𝐚 &amp; Akayla</strong></p>
+    </footer>
+  </div>
+</body>
+</html>
